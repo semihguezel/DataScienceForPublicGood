@@ -6,6 +6,8 @@ CREATE TABLE author (
 	birthday DATE
 );
 
+insert into author (first_name, last_name, email, birthday) values ('Rickard', 'Vigar', 'rvigar0@wikia.com', '1953-01-07');
+
 UPDATE author
 SET first_name = 'Joe',
 	last_name = 'Mama',
